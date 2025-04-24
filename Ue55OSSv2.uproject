@@ -1,13 +1,16 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{F42F8BAD-48B8-15F6-0E41-BCAF5F3EB40A}",
+	"EngineAssociation": "{2CFE4016-47C9-16E1-72DE-0AA48F1BA3AA}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
 		{
 			"Name": "Ue55OSSv2",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"CoreUObject"
+			]
 		}
 	],
 	"Plugins": [
@@ -17,6 +20,20 @@
 			"TargetAllowList": [
 				"Editor"
 			]
+		},
+		{
+			"Name": "OnlineServicesEOSGS",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemEOS",
+			"Enabled": true
 		}
+	],
+	"TargetPlatforms": [
+		"Android",
+		"IOS",
+		"Mac",
+		"Windows"
 	]
 }

@@ -5,7 +5,7 @@ setlocal
 SET UE_FOLDER=C:\UnrealEngine
 
 
-echo "++++++++=============================++++++++++++++"
+echo "++++++++========= Ver: 2025-02-20 ===++++++++++++++"
 echo  Current Dir:  %~dp0
 echo  UE_FOLDER Dir:  %UE_FOLDER%
 echo "++++++++=============================++++++++++++++"
