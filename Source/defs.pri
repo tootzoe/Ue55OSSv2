@@ -74,3 +74,5 @@ DEFINES += "VisibleAnywhere" "BlueprintReadOnly"
 ##  Because this macro unfriend with QtCreater , so we redefined they to empty in this editor....
 DEFINES += "checkf" "check" "checkAtCompileTime" "checkCode" "checkfSlow" "checkLockFreePointerList"
 DEFINES += "checkName" "checkNoEntry" "checkNoRecursion" "checkNoReentry" "checkSlow" "checkStats"
+## online subsystem
+DEFINES += "NAME_GameSession"

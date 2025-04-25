@@ -50,8 +50,14 @@ DISTFILES += \
     Ue55OSSv2Editor.Target.cs
 
 HEADERS += \
+    Ue55OSSv2/Public/OnlineBpBridge.h \
+    Ue55OSSv2/Public/OnlineManager.h \
+    Ue55OSSv2/Public/TestGetworld.h \
     Ue55OSSv2/Ue55OSSv2.h
 
 SOURCES += \
+    Ue55OSSv2/Private/OnlineBpBridge.cpp \
+    Ue55OSSv2/Private/OnlineManager.cpp \
+    Ue55OSSv2/Private/TestGetworld.cpp \
     Ue55OSSv2/Ue55OSSv2.cpp
 
